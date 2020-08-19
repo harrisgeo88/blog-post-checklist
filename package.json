@@ -18,6 +18,8 @@
     "a11y-react-emoji": "^1.1.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-github-button": "^0.1.11",
+    "react-github-corner": "^2.3.0",
     "react-scripts": "3.4.3"
   },
   "devDependencies": {
