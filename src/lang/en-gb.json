@@ -1,0 +1,29 @@
+{
+  "title": "Blog Post Checklist",
+  "quote": "A quick list of stuff to remember when creating and sharing a new blog post",
+  "list": "List",
+  "tips": "Useful tips & links",
+  "checklist": [
+    "Add a proper description",
+    "Add tags",
+    "Add SEO image",
+    "Pushed to Github",
+    "Post on dev.to",
+    "Post on Hashnode",
+    "Pushed to Github"
+  ],
+  "tipsList": [
+    {
+      "href": "https://cards-dev.twitter.com/validator",
+      "message": "Check if your blog's SEO works as expected"
+    },
+    {
+      "href": "https://writtent.com/blog/format-perfect-blog-post-10-tips/",
+      "message": "Some great blogging tips"
+    },
+    {
+      "href": "https://bloggingwizard.com/choose-perfect-niche-for-your-blog/",
+      "message": "Make sure you choose your niche"
+    }
+  ]
+}

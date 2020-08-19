@@ -1,38 +1,89 @@
-.App {
+.banner {
+  position: sticky;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #3c91e6;
+  color: #fafffd;
+  height: 100vh;
+  width: 100%;
+}
+
+.banner-container {
   text-align: center;
+  padding: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#quote {
+  padding: 0 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.header-1 {
+  font-size: 45px;
+}
+
+@media screen and (max-width: 600px) {
+  .header-1 {
+    font-size: 38px;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header-2 {
+  color: #3c91e6;
+}
+
+.main-body {
+  padding: 50px 20%;
+  text-align: left;
+}
+
+.checklist {
+  margin: 50px 0;
+  border: 1px solid #342e37;
+}
+
+.checklist > .checkbox:nth-child(odd) {
+  background-color: #eee;
+}
+
+.checkbox {
+  display: block;
+  padding: 20px;
+}
+
+input[type='checkbox']:checked + .checkbox-title {
+  text-decoration: line-through;
+}
+
+.checkbox-title {
+  padding-left: 10px;
+}
+
+.list-item {
+  padding: 10px 0;
+}
+
+a {
+  color: #3c91e6;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #0a90c0;
+}
+
+footer {
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  position: absolute;
+  left: 0;
+  height: 50px;
+  background-color: #3c91e6;
+  width: 100%;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#created-by {
+  color: #fafffd;
 }
