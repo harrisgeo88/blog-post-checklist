@@ -20,6 +20,7 @@
     "react-dom": "^16.13.1",
     "react-github-button": "^0.1.11",
     "react-github-corner": "^2.3.0",
+    "react-helmet": "^6.1.0",
     "react-scripts": "3.4.3"
   },
   "devDependencies": {
