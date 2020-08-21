@@ -3,7 +3,6 @@ import { Checkbox } from './components/Checkbox'
 import Emoji from 'a11y-react-emoji'
 import lang from './lang/en-gb.json'
 import GithubCorner from 'react-github-corner'
-import { SEO } from './components/SEO'
 import './App.css'
 import 'react-github-button/assets/style.css'
 
@@ -17,7 +16,6 @@ const App = () => {
   const { checklist, tips, tipsList, title, quote, list } = lang
   return (
     <div className="App">
-      <SEO title={title} description={quote} />
       <header className="banner">
         <div className="banner-container">
           <GithubCorner
