@@ -4,6 +4,8 @@
 
 [Website](https://harrisgeo88.github.io/blog-post-checklist/)
 
+![landing-page-screenshot](landing-page.png)
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Installation and Setup Instructions
@@ -23,3 +25,15 @@ To Run TestSuite:
 To Visit App:
 
 http://localhost:3000
+
+## Adding your own items 🔥
+
+The app will display your custom list items if you pass them as query string params. Separate each list item with a `,` (comma)
+
+### Example
+
+Adding `?items=cookies,bananas,coffee`
+
+Will result in https://harrisgeo88.github.io/blog-post-checklist?items=cookies,bananas,coffee
+
+![custom-items-list-screenshot](custom-items-list.png)
