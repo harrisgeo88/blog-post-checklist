@@ -1,10 +1,10 @@
+![landing-page-screenshot](logo.png)
+
 # Blog Post Checklist
 
 > A quick list of stuff to remember when creating and sharing a new blog post
 
 [Website](https://harrisgeo88.github.io/blog-post-checklist/)
-
-![landing-page-screenshot](landing-page.png)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
